@@ -1,0 +1,22 @@
+/*BACKGROUND*/
+body {
+  background-color: gray !important;
+  background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%) !important;
+  background-size: 50px 50px !important;
+}
+/*NAVBAR*/
+.navbar {
+  border: 3px solid rgb(0, 204, 0) !important;
+}
+
+.btn{
+  color: rgb(0, 204, 0) !important;
+  border-color: gray !important;
+  border-width: 2px !important;
+}
+
+.breadcrumb{
+margin: 0px!important;
+position: relative;
+bottom: -515px; /*każda komórka to 50px*/
+}

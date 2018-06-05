@@ -1,0 +1,65 @@
+/*BACKGROUND*/
+body {
+  background-color: gray !important;
+  background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%) !important;
+  background-size: 50px 50px !important;
+}
+/*NAVBAR*/
+.navbar {
+  border: 3px solid rgb(0, 204, 0) !important;
+}
+
+.btn{
+  color: rgb(0, 204, 0) !important;
+  border-color: gray !important;
+  border-width: 2px !important;
+}
+
+/*TABLE WITH MEASURMENTS*/
+#measur_tab {
+  position: relative;
+  text-align: center;
+  width: 1300px;
+  height: auto;
+  margin: auto;
+  top: 50px;
+}
+
+th, td {
+  background-color: rgba(0, 153, 153, 0.5)!important;
+}
+
+.table th, td {
+  height: 50px;
+  width: 135px;
+  border: none!important;
+}
+
+.table {
+  width: 1215px!important;
+  border-collapse: separate;
+  border-spacing: 7px;
+  table-layout: fixed;
+}
+
+.my_form::-webkit-input-placeholder{
+  font-size: 12px;
+  text-align: center;
+}
+
+.my_form{
+  padding: 6px 4px!important;
+  text-align: center;
+}
+
+.btn{
+  color: white!important;
+  border-color: rgb(204, 255, 102)!important;
+  margin-bottom: 70px;
+}
+
+.breadcrumb{
+margin: 0px!important;
+position: relative;
+bottom: -200px; /*każda komórka to 50px*/
+}
