@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fit organizer</title>
+    <link rel="stylesheet" href="style\measurmentAppMesTable.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Logo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="C:\Users\Bartłomiej\Desktop\Ania workspace\Tabelka pomiarów\measurmentAppHome.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="C:\Users\Bartłomiej\Desktop\Ania workspace\Tabelka pomiarów\measurmentAppMesTable.html">Measurment Table</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Training
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Strenght</a>
+          <a class="dropdown-item" href="#">Power</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Put the search phrase" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!--CONTENT-->
+<div id="measur_tab">
+
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Date</th>
+      <th scope="col">Weight</th>
+      <th scope="col">Chest</th>
+      <th scope="col">Shoulder</th>
+      <th scope="col">Waist</th>
+      <th scope="col">Belly</th>
+      <th scope="col">Hips</th>
+      <th scope="col">Thigh</th>
+      <th scope="col">Calf</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><input class="form-control my_form" placeholder="DD-MM-RRRR" type="date"></th>
+      <td><input class="form-control my_form" placeholder="Weight in kg" type="number"></td>
+      <td><input class="form-control my_form" placeholder="Size in cm" type="number"></td>
+      <td><input class="form-control my_form" placeholder="Size in cm" type="number"></td>
+      <td><input class="form-control my_form" placeholder="Size in cm" type="number"></td>
+      <td><input class="form-control my_form" placeholder="Size in cm" type="number"></td>
+      <td><input class="form-control my_form" placeholder="Size in cm" type="number"></td>
+      <td><input class="form-control my_form" placeholder="Size in cm" type="number"></td>
+      <td><input class="form-control my_form" placeholder="Size in cm" type="number"></td>
+    </tr>
+    <tr class = "summary">
+      <th scope="row">Summary</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+<!--BUTTON-->
+<button type="button" id = "adding_button" class="btn btn-info">Add new row</button>
+</div>
+<!--BREADCRUMB-->
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<script src="script/measurmentAppMesTable.js"></script>
+
+  </body>
+</html>
